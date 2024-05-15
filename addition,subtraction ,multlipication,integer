@@ -1,0 +1,19 @@
+def perform_operations(a, b):
+    print(f"Addition of {a} and {b}: {a + b}")
+    print(f"Subtraction of {a} and {b}: {a - b}")
+    print(f"Multiplication of {a} and {b}: {a * b}")
+    print(f"Integer Division of {a} and {b}: {a // b}")
+    print(f"Floor Division of {a} and {b}: {a // b}")
+    print(f"Modulo Division of {a} and {b}: {a % b}")
+
+# Example usage with integers
+int_a = 10
+int_b = 3
+print("Operations on integers:")
+perform_operations(int_a, int_b)
+
+# Example usage with floats
+float_a = 10.5
+float_b = 3.2
+print("\nOperations on floats:")
+perform_operations(float_a, float_b)
